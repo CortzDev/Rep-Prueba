@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: rgb(177, 255, 255);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+.izquierda, .derecha {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 50%;
+}
+.izquierda{
+    background-color: rgb(255, 143, 143);
+}
+.derecha{
+    background-color: cornflowerblue;
+}
+footer{
+    background-color: rgb(109, 255, 199);  
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+h1, h2, h3{
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    position: ce;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.Text{
+    background-color: rgb(222, 55, 55);
+}
+
+#Numb{
+    background-color: blueviolet;
+}
+
+.Pass{
+    background-color: rgb(195, 195, 57);
+}
+
+#Dat{
+    background-color: gold;
+}
+
+div section{
+    background-color: rgb(0, 68, 81);
+}
+
+.List{
+    background-color: rgb(56, 165, 42);
+}
+
+#Cont{
+    background-color: lightgreen;
+}
+
+
+.Check{
+    background-color: gray;
+}
+
+.imagen{
+    display: block;
+    text-align: center;
+}
+.imagen img{
+    
+    width: 10%;
+    
+}
+
+label{
+    font-family: 'Cinzel', serif;
+}
