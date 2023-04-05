@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Evaluación</title>
+</head>
+<body>
+    
+    <header>
+        <div class="imagen">
+            <img src="Lab.png">
+        </div>
+        <h2>Evaluación Laboratorio de Programación Web</h2>
+    </header>
+    <main>
+        <section class="izquierda">
+           <h1>Datos Personales</h1>
+           <br>
+                <div class="Text">
+                    <br>
+                    <label for="">Nombres: </label>
+                        <br>
+                        <input type="text" name="Nombres" placeholder="Ej. Javier Antonio">
+                        <br><br>
+                        <label for="">Apellidos: </label>
+                        <br>
+                        <input type="text" name="Apellidos" placeholder="Ej. Galindo Cortez">
+                        <br><br>
+                </div>
+                
+                <div id="Numb">
+                    <label for="">Expediente: </label>
+                    <br>
+                    <input type="number" name="Expediente" placeholder="Ej. 25276">
+                    <br><br>
+                </div>
+
+                <div class="Text">
+                    <br>
+                    <label for="">Codigo de Estudiante: </label>
+                    <br>
+                    <input type="text" name="codigo" placeholder="Ej. GC21-i04i-001">
+                    <br><br>
+                </div>
+
+                <div class="Pass">
+                    <br>
+                    <label for="">Contraseña: </label>
+                    <br>
+                    <input type="password" name="Contra" placeholder="Ej. Ahj_gyj82">
+                    <br><br>
+                </div>
+
+                <div class="Text">
+                    <br>
+                    <label for="">Dui: </label>
+                    <br>
+                    <input type="text" name="Dui" placeholder="Ej. 12345678-9">
+                    <br><br>
+                    <label for="">Correo Electronico</label>
+                    <br>
+                    <input type="text" name="Correo" placeholder="gc21i04001@usonsonate.edu.sv">
+                    <br><br>
+                </div>
+
+                <div id="Dat">
+                    <br>
+                    <label for="">Fecha Nacimiento</label>
+                    <br>
+                    <input type="date" name="Fecha">
+                    <br><br>
+                </div>
+
+                <div id="Numb">
+                    <br>
+                    <label for="">Numero de Telefono</label>
+                    <br>
+                    <input type="number" name="Telefono" placeholder="Ej.70355031">
+                    <br><br>
+                </div>
+
+                <div>
+                    <section>
+                    <br>
+                    <label for="12">Genero: </label>
+                    <br>
+                    <input id="Masculino" type="radio" name="Genero" value="1">
+                    <label>Masculino</label>
+        
+                    <input id="Femenino" type="radio" name="Genero" value="2">
+                    <label>Femenino</label>
+        
+                    <input id="Otos" type="radio" name="Genero" value="3">
+                    <label>Otros</label>
+                    <br><br>
+                    </section>
+                </div>
+        </section>
+        <section class="derecha">
+            <h1>Datos Academicos</h1>
+            <br>
+                <div>
+                    <section>
+                        <br>
+                        <label for="">Bachillerato: </label>
+                        <br>
+                        <input id="Tecnico" type="radio" name="Bachillerato" value="1">
+                        <label>Tecnico</label>
+                        <br>
+                        <input id="General" type="radio" name="Bachillerato" value="2">
+                        <label>General</label>
+                        <br><br>
+                    </section>
+                </div>
+                
+                <div class="List">
+                    <br>
+                    <label for=""> Carrera Universitaria: </label> <br>
+                            <select>
+                                <option disabled selected style="display:none;">--SELECCIONAR--</option>
+                                <option>Ing. Industrial</option>
+                                <option>Ing. Electrica</option>
+                                <option>Ing. en Sistemas</option>
+                                <option>Ing. en Agronegocios</option>
+                            </select> <br><br>
+                </div>
+
+                <div id="Numb">
+                    <br>
+                    <label for="">Cantidad de Matetias:</label> <br>
+                    <input type="number" min="1" max="5">
+                    <br><br>
+                </div>
+
+                <div class="Check">
+                    <br>
+                    <label for="">Materias Actuales: </label> <br>
+                        <label for="">Probabilidad y Estadistica</label>    
+                            <input type="checkbox" name="Mat1" value="1">
+                                <br>
+                        <label for="">Sistemas Electricos Lineales</label>    
+                            <input type="checkbox" name="Mat2" value="2">
+                                <br>
+                        <label for="">Redes de Computadora II</label>    
+                            <input type="checkbox" name="Mat3" value="3">
+                                <br>
+                        <label for="">Programacion Web</label>    
+                            <input type="checkbox" name="Mat4" value="4">
+                                <br>
+                        <label for="">Base de Datos 1</label>    
+                            <input type="checkbox" name="Mat5" value="5">
+                                <br><br>
+                </div>
+
+                <div id="Numb">
+                    <br>
+                    <label for="">Cantidad de Matetias Cursadas:</label> <br>
+                    <input type="number" min="1" max="52">
+                    <br><br>
+                </div>
+                
+                <div id="Cont">
+                    <br>
+                    <label for="">Comente cual ha sido su <br> experiencia Academica hasta ahora</label>
+                    <br>
+                    <textarea name="Comentario" rows="6" placeholder="Deje aqui su comentario"></textarea>
+                    <br><br>
+                </div>
+
+            <br>
+        </section>
+    </main>
+    <footer>
+        <h3>GC21-I0-4001 | JAVIER ANTONIO GALINDO CORTEZ</h3>
+    </footer>
+</body>
+</html>
